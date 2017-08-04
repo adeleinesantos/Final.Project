@@ -1,0 +1,95 @@
+/*this section is for the menu key and the logo section on every page */
+
+.logo {
+  text-align: center;
+
+}
+ .menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+  overflow:hidden;
+  background-color:white;
+ }
+
+ .menuli a {
+   display:block;
+   color: black;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+.menuli{
+text-align: center;
+border-bottom:1px solid #555;
+}
+
+
+
+
+ .menuli a:hover:not(.active){
+ background-color: #555;
+ color: white;
+}
+
+/* this section is the side bar for the blogs ONLY*/
+
+.blog {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.bloglist {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.bloglist.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bloglist a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.example{
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;}
+
+  code {
+    background: #391326;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+  }
+  header,
+  section,
+  aside,
+  footer {
+    margin: 0 1.5% 24px 1.5%;
+  }
+  section {
+    float: left;
+    width: 63%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+  }
+  footer {
+    clear: both;
+    margin-bottom: 0;
+  }
